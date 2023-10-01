@@ -1,0 +1,49 @@
+section{
+    margin-top: 80px;
+    background-color: rgb(249, 212, 212);
+}
+section h1{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 50px;
+    margin-bottom: 10px;
+    padding:10px;
+    background-color: aquamarine;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.Womenoffers,.mensoffers{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0px;
+    
+    width: 100%;
+
+}
+.more-block img{
+    width:450px;
+    height: 310px;
+}
+.sw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+    
+}
+.ee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Womenoffers{
+    background-color: rgb(187, 119, 251);
+
+
+}
+.mensoffers{
+    background-color:rgb(238, 72, 72);
+}
